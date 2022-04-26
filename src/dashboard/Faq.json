@@ -1,0 +1,27 @@
+[
+    {
+     "id": 1,
+     "question": "What are the services do you offer",
+     "answer": "The Services we offer are to post the missing child details which can be reachable to everyone who are using the website. We also provide service to check the missing child at one place"
+    },
+    {
+     "id": 2,
+     "question": "Is there any payment to use this website",
+     "answer": "No, It's absolutely a free website where one can just login and use the platform."
+    },
+    {
+     "id": 3,
+     "question": "Are your services beginners friendly",
+     "answer": "Yes, all the services we provide are understandable easily for the beginners."
+    },
+    {
+     "id": 4,
+     "question": "Is every Field in Post missing is required",
+     "answer": "Not all the fields are required but few fields like Child Gender, Missing Place, Details entering persons info are required."
+    },
+    {
+     "id": 5,
+     "question": "How to Report a case?",
+     "answer": "Just Move to Post missing navigation fill the details and atlast click on post."
+    }
+   ]
