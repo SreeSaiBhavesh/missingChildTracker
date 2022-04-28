@@ -43,11 +43,12 @@ const PostMissing = () => {
     formData['Worn'] = values.Worn;
     formData['Yourname'] = values.Yourname;
     formData['Gender'] = values.Gender;
+    formData["Aadhar_card"] = values.Aadhar_card;
     formData["location"] = values.location;
     formData["location1"] = values.location1;
     formData["contact_person"] = values.contact_person;
     formData["contact_number"] = values.contact_number;
-    
+
     formData["Status"] = "Missing";
     let missing = JSON.parse(sessionStorage.getItem("MissingData"));
     console.log(formData);
@@ -142,6 +143,14 @@ const PostMissing = () => {
               <Form.Item name="Gender">
                 <Input
                   placeholder="Your Gender"
+                  bordered={true}
+                  checked
+                  required
+                ></Input>
+              </Form.Item>
+              <Form.Item name="Aadhar_card">
+                <Input
+                  placeholder="Your Aadhar Card Number"
                   bordered={true}
                   checked
                   required
